@@ -3,18 +3,18 @@ from typing import List
 
 rolls = {
     'rock': {
-        'defeats': ['scissors', 'lizard'],
+        'defeats': ['scissors', 'alligator'],
         'defeated_by': ['paper']
     },
     'paper': {
-        'defeats': ['rock', 'lizard'],
+        'defeats': ['rock', 'alligator'],
         'defeated_by': ['scissors']
     },
     'scissors': {
-        'defeats': ['paper', 'lizard'],
+        'defeats': ['paper', 'alligator'],
         'defeated_by': ['rock']
     },
-    'lizard': {
+    'alligator': {
         'defeats': ['paper']
     }
 }
@@ -27,9 +27,7 @@ def main():
 
 def show_header():
     print("---------------------------")
-    print("   Rock Paper Scissors v2.1")
-    print("   Rock Paper Scissors v2.1")
-    print("   Rock Paper Scissors v2.1")
+    print("   Rock Paper Scissors v2.3")
     print(" Data Structures Edition")
     print("---------------------------")
 
